@@ -84,7 +84,7 @@ def sv_colour(value: "SpeciesRecord | int | None") -> str:
     elif int(value) >= 65528:
         return "purple"
     else:
-        return "red"
+        return "white"
 
 
 def format_shiny_average(encounter_summary: "EncounterSummary | EncounterTotals") -> str:
